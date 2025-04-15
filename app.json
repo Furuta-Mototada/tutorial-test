@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Tutorial Test",
+    "slug": "tutorial-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mototada.tutorialtest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mototada.tutorialtest"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec8519cd-4d64-48fc-90ff-1a7be7401f1b"
+      }
+    },
+    "owner": "mototada",
+    "updates": {
+      "url": "https://u.expo.dev/ec8519cd-4d64-48fc-90ff-1a7be7401f1b"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
